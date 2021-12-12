@@ -1,0 +1,32 @@
+//Program wyliczający szescian liczby wpisanej z klawiatury
+
+
+#include <iostream>
+
+using namespace std;
+
+long Szescian (int n)
+{
+    int a;
+    if (n>0)
+    {
+        a=n*n*n;
+    }
+    else
+    return a;
+}
+
+int main ()
+{
+
+
+    int n;
+    cout << "Podaj liczbe n: ";
+    cin >> n;
+
+    cout << "Szescian liczby n: " << Szescian <<endl;
+
+    return 0;
+}
+
+
